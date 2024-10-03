@@ -1,0 +1,34 @@
+.navbar{
+    width: 100%;
+    height: 70px;
+    background-color: grey;
+}
+.h1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    display: flex;
+    padding-top: 15px;
+}
+.itempadre{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+}
+
+.divNav{
+
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-around;
+}
+.itemHijo{
+    padding: 0px 10px;
+}
+.cartwidget{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
