@@ -1,11 +1,11 @@
-import  iconCarrito from "../assets/carrto.png"
+import { IoIosCart } from "react-icons/io";
 
 const CartWidget = () => {
     let contador = 0
     return(
         <div className="cartwidget" >
-            <img src= {iconCarrito} width={20} alt="" />
-            <p className="itemHijo">0</p>
+            <IoIosCart size={20} />
+            <p className="itemHijo">1</p>
         </div>
     )
 }
